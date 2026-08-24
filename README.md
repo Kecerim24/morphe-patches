@@ -1,16 +1,26 @@
-# 👋🧩 Morphe Patches template
+# 🧩 kecerim's Patches
 
-Template repository for Morphe Patches.
+Morphe patches for [dream Player](https://play.google.com/store/apps/details?id=de.cyberdream.dreamepg.player).
 
 ## ❓ About
 
-Patches for apps I like.
+**dream Player** (`de.cyberdream.dreamepg.player`) is a free Enigma2 / IPTV client for Android
+phones and tablets. Its premium features — unlimited channels, bouquets and profiles, saving
+autotimers, widgets, and an ad-free UI — are unlocked by a single in-app purchase.
 
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+The `Unlock premium` patch here turns that flag on. It also stops the app from validating the
+purchase against the vendor's license server, which would otherwise revoke it.
+
+> [!NOTE]
+> **These patches were written by AI.** Claude reverse-engineered the app, wrote the
+> fingerprints and the patch, and verified the resulting bytecode. A human reviewed and
+> released it, but keep that origin in mind before you trust it: read the source and check
+> the patched app yourself rather than assuming it has had the scrutiny hand-written patches
+> normally get.
 
 ### How to use these patches
 
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=xyz-user/xyz-patches
+Click here to add these patches to Morphe: https://morphe.software/add-source?github=Kecerim24/morphe-patches
 
 ## 🩹 Patches list
 
@@ -88,4 +98,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+kecerim's Patches are licensed under the [GNU General Public License v3.0](LICENSE)
