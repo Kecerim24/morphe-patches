@@ -1,19 +1,34 @@
 # 🧩 kecerim's Patches
 
-Morphe patches for [dream Player](https://play.google.com/store/apps/details?id=de.cyberdream.dreamepg.player).
+Morphe patches for a few Android apps I use.
 
 ## ❓ About
 
-**dream Player** (`de.cyberdream.dreamepg.player`) is a free Enigma2 / IPTV client for Android
-phones and tablets. Its premium features — unlimited channels, bouquets and profiles, saving
-autotimers, widgets, and an ad-free UI — are unlocked by a single in-app purchase.
+### [dream Player](https://play.google.com/store/apps/details?id=de.cyberdream.dreamepg.player) (`de.cyberdream.dreamepg.player`)
 
-The `Unlock premium` patch here turns that flag on. It also stops the app from validating the
-purchase against the vendor's license server, which would otherwise revoke it.
+A free Enigma2 / IPTV client for phones and tablets. Its premium features — unlimited
+channels, bouquets and profiles, saving autotimers, widgets, and an ad-free UI — are unlocked
+by a single in-app purchase.
+
+`Unlock premium` turns that flag on, and stops the app validating the purchase against the
+vendor's license server, which would otherwise revoke it.
+
+### [Settle Up](https://play.google.com/store/apps/details?id=cz.destil.settleup) (`cz.destil.settleup`)
+
+A group expense splitter. Free users see a rewarded ad after adding expenses, and premium
+features are unlocked either by subscribing or by watching an ad for a temporary unlock.
+
+`Remove ads` stops the ad counter and blocks the ad screen. `Unlock premium` answers the
+app's client-side feature gates. Note that Settle Up keeps premium state in Firebase rather
+than in a local flag, so anything the backend enforces server-side is out of reach of a
+client patch.
+
+Both Settle Up patches also disable Google Play's PairIP license check, which otherwise
+closes the app on startup and sends you to the Play Store, because patching re-signs the APK.
 
 > [!NOTE]
-> **These patches were written by AI.** Claude reverse-engineered the app, wrote the
-> fingerprints and the patch, and verified the resulting bytecode. A human reviewed and
+> **These patches were written by AI.** Claude reverse-engineered the apps, wrote the
+> fingerprints and the patches, and verified the resulting bytecode. A human reviewed and
 > released it, but keep that origin in mind before you trust it: read the source and check
 > the patched app yourself rather than assuming it has had the scrutiny hand-written patches
 > normally get.

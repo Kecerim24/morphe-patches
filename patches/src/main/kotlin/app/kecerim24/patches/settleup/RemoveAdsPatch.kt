@@ -1,6 +1,7 @@
 package app.kecerim24.patches.settleup
 
 import app.kecerim24.patches.shared.Constants.COMPATIBILITY_SETTLE_UP
+import app.kecerim24.patches.shared.pairipLicenseCheckPatch
 import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
@@ -12,6 +13,9 @@ val removeAdsPatch = bytecodePatch(
     default = true
 ) {
     compatibleWith(COMPATIBILITY_SETTLE_UP)
+
+    // Google Play's PairIP check kills any re-signed build on startup.
+    dependsOn(pairipLicenseCheckPatch)
 
     execute {
         // region Tell the app there are no ads to show.
