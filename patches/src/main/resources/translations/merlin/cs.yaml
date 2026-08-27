@@ -1,0 +1,1902 @@
+# Czech translation of Merlin Bird ID's interface.
+#
+# Read by app.kecerim24.patches.merlin.czechTranslationPatch. Each key is an Android string
+# resource name and each value is the Czech text; the comment above an entry is the app's own
+# English text, for review. An entry with a blank value is left untranslated.
+#
+# Preserve every format argument (%s, %1$d, ...) exactly as the English text has it: the patch
+# skips any entry whose arguments do not match, and a mismatch that slipped through would crash
+# the app when the string is formatted. Keep the #hash# markers, the HTML tags and the product
+# names (Merlin, eBird, Sound ID, Photo ID, AX Visio, dG, Swarovski Optik).
+#
+# Resource names the app uses for preference keys, deep links, URLs, date patterns and vector
+# path data are deliberately absent; translating them would break the app.
+
+# About Merlin
+about_merlin: "O aplikaci Merlin"
+
+# Activate a device
+activate_a_device: "Aktivovat zařízení"
+
+# Use another device
+activate_another_device: "Použít jiné zařízení"
+
+# I have a dG
+activate_dg: "Mám dG"
+
+# I have an AX Visio
+activate_falke: "Mám AX Visio"
+
+# Do you have a Swarovski Optik device you would like to activate?
+activate_swaro_device_alert: "Máte zařízení Swarovski Optik, které chcete aktivovat?"
+
+# Add all sounds (%s)
+add_all_sounds: "Přidat všechny zvuky (%s)"
+
+# Add region
+add_region: "Přidat oblast"
+
+# Add your first species!
+add_your_first_species: "Přidejte svůj první druh!"
+
+# Adds %1$s (%2$s) to your device
+adds_x_birds: "Přidá %1$s (%2$s) do vašeho zařízení"
+
+# Adjust filters
+adjust_filters: "Upravit filtry"
+
+# All global birds
+all_global_birds: "Všichni ptáci světa"
+
+# All offline birds
+all_offline_birds: "Všichni offline ptáci"
+
+# All sounds installed
+all_sounds_installed: "Všechny zvuky nainstalovány"
+
+# Alphabetic
+alphabetic: "Abecedně"
+
+# Already have a Life List in Merlin or eBird?
+already_have_a_lifelist: "Máte už life list v Merlinu nebo eBirdu?"
+
+# App language
+app_language: "Jazyk aplikace"
+
+# Barn Swallow
+barn_swallow: "Vlaštovka obecná"
+
+# Best
+best: "Nejlepší"
+
+# Best Matches
+best_matches: "Nejlepší shody"
+
+# Best matches:
+best_matches_colon: "Nejlepší shody:"
+
+# Best suggestions
+best_suggestions: "Nejlepší návrhy"
+
+# Still can't find your bird?
+bird_not_available_still_cant_find_title: "Stále nemůžete svého ptáka najít?"
+
+# Bird of the Day
+bird_of_the_day: "Pták dne"
+
+# Come back tomorrow for another bird
+bird_of_the_day_come_back_tomorrow: "Zítra se vraťte pro dalšího ptáka"
+
+# Bird of the Day found!
+bird_of_the_day_found: "Pták dne nalezen!"
+
+# Every day you open the app, Merlin gives you a different bird likely to be in your area. Explore your bird’s profile, compare and share with friends, and go outside to see if you can find it!
+bird_of_the_day_help_body: "Každý den, kdy aplikaci otevřete, vám Merlin nabídne jiného ptáka, který se pravděpodobně vyskytuje ve vašem okolí. Prohlédněte si jeho profil, porovnávejte a sdílejte s přáteli a zkuste ho venku najít!"
+
+# Downloading
+bird_packages_button_downloading: "Stahuje se"
+
+# Bird Packs
+bird_packs: "Balíčky ptáků"
+
+# Bird packs contain essential photos and sounds to help you identify birds in a region.
+bird_packs_contain: "Balíčky ptáků obsahují klíčové fotografie a zvuky, které vám pomohou určit ptáky v dané oblasti."
+
+# Bird packs contain photos, sounds, and range maps for all the birds in a region.
+bird_packs_contain_onboarding: "Balíčky ptáků obsahují fotografie, zvuky a mapy rozšíření všech ptáků v dané oblasti."
+
+# Birds not found in this area
+birds_not_found_in_this_area: "Ptáci, kteří se v této oblasti nevyskytují"
+
+# Birds supported by Sound ID (%1$d)
+birds_supported_by_sound_id: "Ptáci podporovaní funkcí Sound ID (%1$d)"
+
+# Your Bird of the Day has been found
+botd_is_found: "Váš pták dne byl nalezen"
+
+# Assuming that you saw the bird at your current location, granting access to your current location is the best way for Merlin to find out which birds are near you. Location is also essential for Sound ID to give you accurate results. If Merlin does not know your location, results will be inaccurate and Merlin may suggest bird species that are not found in your area. /  / Before adding a sighting to your life list in Merlin or to an eBird checklist, be sure to enable location permissions. If your saved sound recording doesn't have a location, you can manually set a location for the file using the edit button at the top of the screen.
+botd_location_services_help_text: "Pokud jste ptáka viděli na svém současném místě, je povolení přístupu k poloze nejlepší způsob, jak Merlin zjistí, kteří ptáci se u vás vyskytují. Poloha je také nezbytná, aby vám Sound ID dávalo přesné výsledky. Pokud Merlin vaši polohu nezná, budou výsledky nepřesné a Merlin může navrhovat druhy, které se ve vaší oblasti nevyskytují.\n\nNež přidáte pozorování do svého life listu v Merlinu nebo do seznamu v eBirdu, nezapomeňte povolit přístup k poloze. Pokud uložená nahrávka polohu neobsahuje, můžete ji souboru nastavit ručně tlačítkem pro úpravu v horní části obrazovky."
+
+# Location is essential for bird ID. For Merlin to work properly, location services must be enabled.
+botd_location_services_text: "Poloha je pro určování ptáků nezbytná. Aby Merlin fungoval správně, musí být zapnuté služby určování polohy."
+
+# Location is essential for bird ID. Merlin needs your current location to find birds near you.
+botd_no_location_caption: "Poloha je pro určování ptáků nezbytná. Merlin potřebuje vaši polohu, aby našel ptáky ve vašem okolí."
+
+# Please allow location access
+botd_no_location_title: "Povolte prosím přístup k poloze"
+
+# Bird of the Day daily reminders
+botd_reminder_channel_description: "Denní připomenutí ptáka dne"
+
+# Bird of the Day reminders
+botd_reminder_channel_name: "Připomenutí ptáka dne"
+
+# Breeding
+breeding: "Hnízdění"
+
+# This is when the species is establishing a territory, nesting, and raising young. Often but not always corresponds to spring and summer, especially at higher latitudes.
+breeding_description: "Období, kdy si druh zabírá teritorium, hnízdí a vyvádí mladé. Často, ale ne vždy, odpovídá jaru a létu, zvláště ve vyšších zeměpisných šířkách."
+
+# Breeding season
+breeding_season: "Období hnízdění"
+
+# Open Amazon Appstore and search for "Silk Browser"
+browser_instructions_amazon: "Otevřete Amazon Appstore a vyhledejte „Silk Browser“"
+
+# Open your device's app store and search for "browser" or "Chrome"
+browser_instructions_generic: "Otevřete obchod s aplikacemi ve svém zařízení a vyhledejte „prohlížeč“ nebo „Chrome“"
+
+# Open AppGallery and search for "Huawei Browser" or "Petal Search"
+browser_instructions_huawei: "Otevřete AppGallery a vyhledejte „Huawei Browser“ nebo „Petal Search“"
+
+# Open Galaxy Store and search for "Samsung Internet" or "Chrome"
+browser_instructions_samsung: "Otevřete Galaxy Store a vyhledejte „Samsung Internet“ nebo „Chrome“"
+
+# Manual Instructions
+browser_manual_instructions_title: "Ruční postup"
+
+# Open App Store
+browser_open_app_store: "Otevřít obchod s aplikacemi"
+
+# Device Settings
+browser_open_settings: "Nastavení zařízení"
+
+# To sign in/out, please install a web browser from your app store or enable your device's browser in Settings.
+browser_required_message: "Pro přihlášení či odhlášení si prosím nainstalujte webový prohlížeč z obchodu s aplikacemi nebo prohlížeč v zařízení povolte v Nastavení."
+
+# Browser Required
+browser_required_title: "Je potřeba prohlížeč"
+
+# Settings Instructions
+browser_settings_instructions_title: "Postup v nastavení"
+
+# Please open Settings manually and navigate to: / Apps → All Apps → [Browser Name] → Enable
+browser_settings_manual_instructions: "Otevřete prosím Nastavení ručně a přejděte na:\nAplikace → Všechny aplikace → [název prohlížeče] → Povolit"
+
+# Got It!
+btn_got_it: "Rozumím!"
+
+# Calendar
+calendar: "Kalendář"
+
+# Can you find these birds nearby?
+can_you_find_these_birds_nearby: "Najdete tyto ptáky ve svém okolí?"
+
+# Cancel
+cancel: "Zrušit"
+
+# Merlin doesn't have a likely bird.
+cant_find_bird_header: "Merlin nemá žádného pravděpodobného ptáka."
+
+# Try adjusting your answers
+cant_find_bird_sub: "Zkuste upravit své odpovědi"
+
+# Can't find your bird?
+cant_find_your_bird: "Nemůžete svého ptáka najít?"
+
+# %1$d of %2$d
+carousel_sequence: "%1$d z %2$d"
+
+# Change
+change: "Změnit"
+
+# Change date
+change_date: "Změnit datum"
+
+# Change Language?
+change_language: "Změnit jazyk?"
+
+# Would you like to use %s as the language for species list?
+change_language_message: "Chcete pro seznam druhů použít jazyk %s?"
+
+# Change location
+change_location: "Změnit polohu"
+
+# Change your email address
+change_your_email: "Změnit e-mailovou adresu"
+
+# Check for updates
+check_for_updates: "Zkontrolovat aktualizace"
+
+# Check it out!
+check_it_out: "Podívejte se!"
+
+# Check out this bird
+check_out_this_bird: "Podívejte se na tohoto ptáka"
+
+# Choose different photo
+choose_different_photo: "Vybrat jinou fotografii"
+
+# Choose Location
+choose_location: "Vybrat polohu"
+
+# Choose photo
+choose_photo: "Vybrat fotografii"
+
+# Choose the size of your download
+choose_size_of_download: "Vyberte velikost stahovaných dat"
+
+# Clean up space
+clean_up_space: "Uvolnit místo"
+
+# The Cornell Lab will send you updates about birds, birding, and opportunities to help bird conservation. You can unsubscribe at any time. We will never sell or give your email address to others.
+clo_will_send_updates: "Cornell Lab vám bude zasílat novinky o ptácích, birdwatchingu a možnostech, jak pomoci jejich ochraně. Odběr můžete kdykoli zrušit. Vaši e-mailovou adresu nikdy neprodáme ani nepředáme dalším stranám."
+
+# Close
+close: "Zavřít"
+
+# Common name language
+common_name_language: "Jazyk názvů ptáků"
+
+# Confirm location and date
+confirm_location_and_date: "Potvrďte polohu a datum"
+
+# Confirm sighting
+confirm_your_sighting: "Potvrdit pozorování"
+
+# Congratulations!
+congrats: "Gratulujeme!"
+
+# We are continually updating and releasing new packs. Please check again in the future.
+continually_updating_new_packs: "Průběžně balíčky aktualizujeme a vydáváme nové. Zkuste to prosím znovu později."
+
+# Continue recording
+continue_recording: "Pokračovat v nahrávání"
+
+# Continue Sound ID
+continue_sound_id: "Pokračovat v Sound ID"
+
+# Converting media file…
+converting_media_file: "Převádí se soubor…"
+
+# Create a new location:
+create_a_new_location: "Vytvořit novou polohu:"
+
+# Create an account to keep track of all the birds you’ve identified. Each time you add a new one, it’s called a “lifer”!
+create_an_account_to_keep_track: "Vytvořte si účet a mějte přehled o všech ptácích, které jste určili. Každý nový druh se označuje jako „lifer“!"
+
+# Current Location
+current_location: "Aktuální poloha"
+
+# Cancel
+custom_enable_wifi_dialog_cancel: "Zrušit"
+
+# Please enable WIFI in your system settings
+custom_enable_wifi_dialog_message: "Zapněte prosím Wi-Fi v nastavení systému"
+
+# Go to Settings
+custom_enable_wifi_dialog_navigate_to_settings: "Přejít do Nastavení"
+
+# OK
+custom_enable_wifi_dialog_ok: "OK"
+
+# Enable WIFI
+custom_enable_wifi_dialog_title: "Zapnout Wi-Fi"
+
+# Date, location, or species
+date_location_or_species: "Datum, poloha nebo druh"
+
+# Date - newest first
+date_newest_first: "Datum – od nejnovějšího"
+
+# Date - oldest first
+date_oldest_first: "Datum – od nejstaršího"
+
+# Date Recorded - Newest First
+date_recorded_newest_first: "Datum nahrání – od nejnovějšího"
+
+# Date Recorded - Oldest First
+date_recorded_oldest_first: "Datum nahrání – od nejstaršího"
+
+# Notifies operation's updates
+default_notification_channel_description: "Oznamuje průběh operací"
+
+# General
+default_notification_channel_name: "Obecné"
+
+# Delete
+delete: "Smazat"
+
+# Deleting content
+deleting_content: "Maže se obsah"
+
+# Developer options
+developer_options: "Možnosti pro vývojáře"
+
+# Connected device: %1$s
+device_name: "Připojené zařízení: %1$s"
+
+# Swarovski Optik dG connected
+dg_connected: "Swarovski Optik dG připojeno"
+
+# Swarovski Optik dG connecting…
+dg_connecting: "Swarovski Optik dG se připojuje…"
+
+# Swarovski Optik dG disconnected
+dg_disconnected: "Swarovski Optik dG odpojeno"
+
+# No wifi connection available
+dg_no_wifi: "Není dostupné žádné připojení Wi-Fi"
+
+# Unsupported Swarovski Optik dG version
+dg_unsupported_version: "Nepodporovaná verze Swarovski Optik dG"
+
+# Use Swarovski Optik dG
+dg_use: "Použít Swarovski Optik dG"
+
+# Did you find this bird? Save it to your Life List!
+did_you_find_this_save_it: "Našli jste tohoto ptáka? Uložte si ho do svého life listu!"
+
+# Didn't get our email? Check your spam folder. The email will come from confirm@birds.cornell.edu.
+didnt_get_email: "Nedostali jste náš e-mail? Zkontrolujte složku se spamem. E-mail přijde z adresy confirm@birds.cornell.edu."
+
+# Discover a new bird each day
+discover_a_new_bird_each_day: "Objevujte každý den nového ptáka"
+
+# Dismiss
+dismiss: "Zavřít"
+
+# Donate
+donate: "Přispět"
+
+# Don’t ask again
+dont_ask_again: "Znovu se nedotazovat"
+
+# Don't Show Again
+dont_show_again: "Znovu nezobrazovat"
+
+# Download
+download: "Stáhnout"
+
+# Download before you go!
+download_before_you_go: "Stáhněte si data, než vyrazíte!"
+
+# Download birds
+download_birds: "Stáhnout ptáky"
+
+# Download birds for anywhere in the world! Information for the world's 10,000+ bird species are divided into regional bird packs.
+download_birds_for_anywhere: "Stáhněte si ptáky odkudkoli na světě! Informace o více než 10 000 druzích ptáků jsou rozdělené do regionálních balíčků."
+
+# Download nuggets on demand
+download_nuggets_on_demand: "Stahovat tipy na vyžádání"
+
+# Bird pack download status notifications
+download_service_channel_description: "Oznámení o průběhu stahování balíčků ptáků"
+
+# Bird Pack Downloads
+download_service_channel_name: "Stahování balíčků ptáků"
+
+# Each bird pack includes photos and sound recordings for each bird in that region. Downloading a bird pack makes this information available for offline use.
+downloading_a_bird_pack_makes_info_available_offline: "Každý balíček ptáků obsahuje fotografie a zvukové nahrávky každého ptáka v dané oblasti. Stažením balíčku budou tyto informace dostupné i bez připojení k internetu."
+
+# Downloading content
+downloading_content: "Stahuje se obsah"
+
+# Downloading sounds
+downloading_sounds: "Stahují se zvuky"
+
+# Eating at a feeder
+eating: "Krmí se u krmítka"
+
+# Life List
+ebird_life_list: "Life list"
+
+# Email address
+email_address: "E-mailová adresa"
+
+# You don't have any recordings in your library yet.
+empty_sound_library: "V knihovně zatím nemáte žádné nahrávky."
+
+# Enable
+enable: "Povolit"
+
+# Enable prototypes
+enable_prototypes: "Povolit prototypy"
+
+# Stop recording
+end_recording: "Zastavit nahrávání"
+
+# Please enter your email address to use this free app.
+enter_email_to_use_app: "Zadejte prosím svou e-mailovou adresu, abyste mohli tuto aplikaci zdarma používat."
+
+# Enter a unique name that describes your location
+enter_new_location_name: "Zadejte jedinečný název, který vaši polohu popisuje"
+
+# Sorry, there was an error getting your likely birds
+error_getting_likely_birds: "Bohužel se nepodařilo získat pravděpodobné ptáky"
+
+# Submission failed. Please check your internet connection and try again.
+error_submitting_checklist: "Odeslání selhalo. Zkontrolujte prosím připojení k internetu a zkuste to znovu."
+
+# Storage permission
+explanation_external_storage_permission_title: "Oprávnění k úložišti"
+
+# Explore
+explore: "Prozkoumat"
+
+# 0 birds in all offline birds
+explore_all_offline: "0 ptáků ve všech offline ptácích"
+
+# Explore all sounds (%1$d)
+explore_all_sounds: "Prozkoumat všechny zvuky (%1$d)"
+
+# Explore Birds
+explore_birds: "Prozkoumat ptáky"
+
+# Loading…
+explore_birds_bird_loading: "Načítá se…"
+
+# Not enough data to sort by Most Likely for this location and date.
+explore_birds_cannot_sort_by_frequency_warning: "Pro tuto polohu a datum není dost dat pro řazení podle pravděpodobnosti."
+
+# All offline birds (%1$d birds)
+explore_birds_installed: "Všichni offline ptáci (%1$d ptáků)"
+
+# %1$d likely on %2$s near %3$s
+explore_birds_likely_header_date: "%1$d pravděpodobných %2$s v okolí %3$s"
+
+# %1$d likely today near %2$s
+explore_birds_likely_header_today: "%1$d pravděpodobných dnes v okolí %2$s"
+
+# %1$d likely near %2$s, year-round
+explore_birds_likely_header_year_round: "%1$d pravděpodobných v okolí %2$s, celoročně"
+
+# %1$d regions selected (%2$d birds)
+explore_birds_multiple_packs: "Vybráno %1$d oblastí (%2$d ptáků)"
+
+# %1$s (%2$d birds)
+explore_birds_single_pack: "%1$s (%2$d ptáků)"
+
+# Showing all matching results for birds around the world.
+explore_expanded_text: "Zobrazují se všechny odpovídající výsledky pro ptáky z celého světa."
+
+# Likely birds in other months
+explore_likely_any_month_title: "Pravděpodobní ptáci v jiných měsících"
+
+# 0 birds in %1$d regions selected
+explore_multiple_regions: "0 ptáků ve %1$d vybraných oblastech"
+
+# 0 birds in %1$s
+explore_single_region: "0 ptáků v oblasti %1$s"
+
+# Turn Bluetooth on to connect to AX Visio
+falke_bluetooth_off: "Zapněte Bluetooth, abyste se mohli připojit k AX Visio"
+
+# Show multiple bounding boxes
+falke_bounding_box_pref_label: "Zobrazovat více rámečků"
+
+# Choose Primary Language
+falke_choose_primary_lang: "Vyberte primární jazyk"
+
+# Choose Secondary Language
+falke_choose_secondary_lang: "Vyberte sekundární jazyk"
+
+# Connected
+falke_connected: "Připojeno"
+
+# Searching for AX Visio…
+falke_connecting: "Hledá se AX Visio…"
+
+# Download complete. Please wait…
+falke_finishing_download: "Stahování dokončeno. Čekejte prosím…"
+
+# Latest:
+falke_latest: "Nejnovější:"
+
+# Discover the world's first smart binoculars, AX Visio. Merging analog high precision sport optics with an integrated camera, AR-display, and seamless smartphone connectivity, these binoculars redefine nature observation. Quickly identify more than 8000 birds, capture and share nature's wonders with ease. With ergonomic design and clarity, AX Visio elevates your nature observation experience. Your window to the future of observation.
+falke_main_text: "Objevte první inteligentní binokulární dalekohled na světě, AX Visio. Spojuje vysoce přesnou analogovou sportovní optiku s integrovaným fotoaparátem, AR displejem a plynulým propojením s telefonem a mění tak pozorování přírody. Rychle určíte více než 8 000 ptáků a snadno zachytíte a budete sdílet krásy přírody. Díky ergonomickému designu a čistotě obrazu posouvá AX Visio pozorování přírody na novou úroveň. Vaše okno do budoucnosti pozorování."
+
+# AX Visio Service Channel
+falke_notification_background_service_channel_name: "Kanál služby AX Visio"
+
+# Nearby devices
+falke_permission_nearby: "Zařízení v okolí"
+
+# Exact location
+falke_permission_precise_location: "Přesná poloha"
+
+# Merlin requires access to certain permissions to function properly with AXVISIO. /  / Please grant the following permissions to continue:
+falke_permissions_denied: "Merlin potřebuje pro správnou spolupráci s AX Visio určitá oprávnění.\n\nUdělte prosím následující oprávnění, abyste mohli pokračovat:"
+
+# To grant permissions, go to Settings > App Permissions and enable the required permissions.
+falke_permissions_denied2: "Oprávnění udělíte v Nastavení > Oprávnění aplikací, kde požadovaná oprávnění povolíte."
+
+# AX Visio permissions required
+falke_permissions_required: "Jsou potřeba oprávnění pro AX Visio"
+
+# No images
+falke_photo_library_empty_list: "Žádné snímky"
+
+# Loading…
+falke_photo_library_loading: "Načítá se…"
+
+# Downloading %1$d / %2$d…
+falke_photos_downloading: "Stahuje se %1$d / %2$d…"
+
+# Scientific name (Latin)
+falke_secondary_lang_pref_scientific: "Vědecký název (latinsky)"
+
+# To properly display your AX Visio photos, Merlin needs to access your device's storage.
+falke_write_storage_permission_explanation: "Aby Merlin mohl správně zobrazit vaše fotografie z AX Visio, potřebuje přístup k úložišti zařízení."
+
+# Family
+family: "Rodina"
+
+# On a fence or wire
+fence: "Na plotě nebo drátu"
+
+# Filter by
+filter_by: "Filtrovat podle"
+
+# For
+filter_for: "Pro"
+
+# Hide birds on your life list
+filter_hide_lifelist_birds: "Skrýt ptáky z mého life listu"
+
+# Tap for Merlin Photo ID.
+finder_background_service_message: "Klepnutím otevřete Merlin Photo ID."
+
+# Swarovski Optik dG failed
+finder_failure: "Swarovski Optik dG selhalo"
+
+# No wifi connection to Swarovski Optik dG
+finder_failure_no_finder_wifi: "Žádné připojení Wi-Fi k Swarovski Optik dG"
+
+# Connect your Swarovski Optik dG to the Merlin Bird ID app. With its 8x magnification, the dG makes recognition even easier. Seamlessly observe, photograph, identify, and record without interruption. At the touch of a button, your observations land in the Merlin Bird ID app for automatic identification.
+finder_main_text: "Připojte své Swarovski Optik dG k aplikaci Merlin Bird ID. Díky osminásobnému zvětšení usnadňuje dG určování ještě víc. Plynule pozorujte, fotografujte, určujte a nahrávejte bez přerušení. Stisknutím tlačítka se vaše pozorování přenese do aplikace Merlin Bird ID k automatickému určení."
+
+# Swarovski Optik dG Background Service Channel
+finder_notification_background_service_channel_name: "Kanál služby na pozadí Swarovski Optik dG"
+
+# Swarovski Optik dG - New Photos Channel
+finder_notification_new_photos_channel_name: "Swarovski Optik dG – kanál nových fotografií"
+
+# Please wait…
+finder_status_please_wait: "Čekejte prosím…"
+
+# Finding your Bird of the Day…
+finding_bird_of_the_day: "Hledá se váš pták dne…"
+
+# Finding your location…
+finding_your_location: "Zjišťuje se vaše poloha…"
+
+# 5 of 5
+five_of_five: "5 z 5"
+
+# for %s
+for_string: "pro %s"
+
+# Found a Lifer!!!
+found_a_lifer: "Nový lifer!!!"
+
+# Found it!
+found_it: "Našel jsem ho!"
+
+# Found my Bird of the Day!
+found_my_botd: "Našel jsem svého ptáka dne!"
+
+# Found this bird!
+found_this_bird: "Tohoto ptáka jsem našel!"
+
+# 4 of 5
+four_of_five: "4 z 5"
+
+# An error occurred. Please try again later.
+generic_error: "Došlo k chybě. Zkuste to prosím později."
+
+# Get a bird pack
+get_a_bird_pack: "Získat balíček ptáků"
+
+# Get eBird
+get_ebird: "Získat eBird"
+
+# Get Photo ID
+get_photo_id: "Získat Photo ID"
+
+# Checking nearby birds…
+getting_frequency_data: "Zjišťují se ptáci v okolí…"
+
+# Give your session a name
+give_your_session_a_name: "Pojmenujte své nahrávání"
+
+# Go to settings
+go_to_settings: "Přejít do nastavení"
+
+# On the ground
+ground: "Na zemi"
+
+# Habitat and seasons
+habitat_and_seasons: "Prostředí a období roku"
+
+# This habitat gallery shows the environments where this bird lives throughout the year. Just like we have different rooms in our house for different activities, birds might use different habitats at each season.
+habitat_gallery_help_intro: "Tato galerie prostředí ukazuje, kde tento pták žije v průběhu roku. Podobně jako my máme doma různé pokoje pro různé činnosti, mohou ptáci v každém období využívat jiné prostředí."
+
+# Habitat information is only available for some species.
+habitat_info_not_exists: "Informace o prostředí jsou dostupné jen u některých druhů."
+
+# Habitat photos are available when connected to the internet.
+habitat_photos_are_available_when_connected: "Fotografie prostředí jsou dostupné po připojení k internetu."
+
+# Habitats
+habitats: "Prostředí"
+
+# Hearing a bird
+hearing_a_bird: "Slyším ptáka"
+
+# Help
+help: "Nápověda"
+
+# Here's my Bird of the Day
+here_is_my_botd: "Tady je můj pták dne"
+
+# FCM Token
+hidden_preference_fcm_token: "FCM token"
+
+# Show Sound ID scores
+hidden_preference_sound_id_debug_scores: "Zobrazovat skóre Sound ID"
+
+# Initial detection threshold
+hidden_preference_sound_id_initial_threshold: "Počáteční prahová hodnota detekce"
+
+# Consecutive detections for activation
+hidden_preference_sound_id_min_detections_unlock: "Počet detekcí za sebou pro aktivaci"
+
+# Hiding scientific names
+hiding_scientific_names: "Vědecké názvy se skrývají"
+
+# Highlight Bird of the Day
+highlight_bird_of_the_day: "Zvýraznit ptáka dne"
+
+# How to save your sightings
+how_to_save_your_sightings: "Jak ukládat svá pozorování"
+
+# I already use eBird and want to record other birds on a checklist
+i_already_use_ebird: "Už používám eBird a chci zaznamenávat další ptáky do seznamu"
+
+# I don't know
+i_dont_know: "Nevím"
+
+# ID Another Bird
+id_another_bird: "Určit dalšího ptáka"
+
+# Identify
+identify: "Určit"
+
+# Identify a bird
+identify_a_bird: "Určit ptáka"
+
+# Identifying…
+identifying: "Určuje se…"
+
+# Identifying birds by sound is tricky
+identifying_birds_by_sound: "Určovat ptáky podle hlasu je náročné"
+
+# If you want more sounds for each species and have enough storage space on your device, you can choose to “Add additional sounds” to a pack for a more complete set of information.
+if_you_want_more_sounds_for_species: "Pokud chcete u každého druhu více zvuků a máte v zařízení dost místa, můžete si k balíčku přidat „další zvuky“ a získat tak úplnější sadu informací."
+
+# If you’ve added other regions, you might already have some birds for this area. Merlin will only download the remaining birds you need for full coverage.
+if_youve_added_other_regions: "Pokud jste už přidali jiné oblasti, některé ptáky pro toto území možná máte. Merlin stáhne jen zbývající ptáky, které potřebujete pro úplné pokrytí."
+
+# Import all new photos
+import_all_new_photos: "Importovat všechny nové fotografie"
+
+# Import photo from AX Visio to adjust results
+import_photo_from_falke: "Importovat fotografii z AX Visio a upravit výsledky"
+
+# Imported
+imported: "Importováno"
+
+# Include all sounds (%s)
+include_all_sounds: "Zahrnout všechny zvuky (%s)"
+
+# Includes additional sounds
+includes_additional_sounds: "Obsahuje další zvuky"
+
+# Install
+install: "Nainstalovat"
+
+# Install a bird pack
+install_a_bird_pack: "Nainstalovat balíček ptáků"
+
+# Installed
+installed: "Nainstalováno"
+
+# Installing
+installing: "Instaluje se"
+
+# It looks like you’re offline
+it_looks_like_you_are_offline: "Zdá se, že jste offline"
+
+# It looks like you saw the bird here:
+it_looks_like_you_saw: "Zdá se, že jste ptáka viděli zde:"
+
+# <b>It looks like you're offline</b>
+it_looks_like_youre_offline: "<b>Zdá se, že jste offline</b>"
+
+# <b>It looks like you're offline.</b> Merlin is trying to load nearby places but can’t connect to the internet.
+it_looks_like_youre_offline_places: "<b>Zdá se, že jste offline.</b> Merlin se snaží načíst místa ve vašem okolí, ale nemůže se připojit k internetu."
+
+# Continue
+label_continue: "Pokračovat"
+
+# Please wait until all packs are done installing to change the bird name language.
+lang_download_pack_install_msg: "Než změníte jazyk názvů ptáků, počkejte prosím, až se dokončí instalace všech balíčků."
+
+# Learn more
+learn_more: "Zjistit více"
+
+# Let Merlin know
+let_merlin_know: "Dejte Merlinovi vědět"
+
+# Let's go!
+lets_go: "Jdeme na to!"
+
+# Search
+lichen_search_view_hint: "Hledat"
+
+# Likely today for %s
+life_list_likely_today_for: "Dnes pravděpodobní pro %s"
+
+# %1$d species
+lifelist_subtitle: "%1$d druhů"
+
+# Likely birds
+likely_birds: "Pravděpodobní ptáci"
+
+# #Likely# in %1$s on %2$s
+likely_in_location_on_date: "#Pravděpodobný# v %1$s dne %2$s"
+
+# #Likely# in %s today
+likely_in_location_today: "#Pravděpodobný# dnes v %s"
+
+# Listening for birds
+listening_for_birds: "Poslouchám ptáky"
+
+# %s listening now
+listening_now: "%s právě poslouchá"
+
+# Downloading your locations…
+loading_personal_locations: "Stahují se vaše polohy…"
+
+# Loading preview…
+loading_preview: "Načítá se náhled…"
+
+# Loading sighting location…
+loading_sighting_location: "Načítá se poloha pozorování…"
+
+# This pack is installed on your device but no longer available online.
+local_only_pack: "Tento balíček je nainstalovaný ve vašem zařízení, ale už není dostupný online."
+
+# Different bird species live in different habitats different times of year. Please enable location services to help Merlin do its best work.
+location_is_key_explanation: "Různé druhy ptáků žijí v různém prostředí a v různých obdobích roku. Povolte prosím služby určování polohy, aby Merlin mohl pracovat co nejlépe."
+
+# Location: 
+location_label: "Poloha: "
+
+# Location is key to bird identification
+location_onboarding_heading: "Poloha je pro určování ptáků klíčová"
+
+# Successfully signed out
+logged_out: "Odhlášení proběhlo úspěšně"
+
+# Are you sure you want to sign out?
+logout_confirmation: "Opravdu se chcete odhlásit?"
+
+# Sign out %s
+logout_confirmation_title: "Odhlásit %s"
+
+# Long press to choose a new location
+long_press_to_choose: "Dlouhým stisknutím vyberte novou polohu"
+
+# You’ve been recording for %1$d minutes. Do you want to continue?
+long_recording_title: "Nahráváte už %1$d minut. Chcete pokračovat?"
+
+# Look what I found on Merlin
+look_what_i_found_on_merlin: "Podívejte, co jsem našel v Merlinu"
+
+# Map
+map: "Mapa"
+
+# Media unavailable
+media_unavailable: "Média nejsou dostupná"
+
+# Merlin can help you learn bird sounds
+merlin_can_help_you_learn_bird_sounds: "Merlin vám pomůže naučit se ptačí hlasy"
+
+# Merlin heard a new bird!
+merlin_heard_new_bird: "Merlin slyšel nového ptáka!"
+
+# Merlin is deleting content
+merlin_is_deleting_content: "Merlin maže obsah"
+
+# Merlin is trying to download additional sounds, but can't connect to the internet.
+merlin_is_downloading_additional_sounds: "Merlin se snaží stáhnout další zvuky, ale nemůže se připojit k internetu."
+
+# Merlin is downloading photos and sounds for offline use.
+merlin_is_downloading_offline_use: "Merlin stahuje fotografie a zvuky pro offline použití."
+
+# Merlin is preparing your bird content.
+merlin_is_preparing_your_bird_content: "Merlin připravuje váš ptačí obsah."
+
+# Merlin is trying to get a list of birds near you, but can’t connect to the internet.
+merlin_is_trying_to_get_a_list_of_birds: "Merlin se snaží získat seznam ptáků ve vašem okolí, ale nemůže se připojit k internetu."
+
+# Merlin is trying to get a list of available birds, but can’t connect to the internet.
+merlin_is_trying_to_get_birds_but_cant_connect: "Merlin se snaží získat seznam dostupných ptáků, ale nemůže se připojit k internetu."
+
+# Merlin is trying to load photos and sounds, but can't connect to the internet.
+merlin_is_trying_to_load: "Merlin se snaží načíst fotografie a zvuky, ale nemůže se připojit k internetu."
+
+# Merlin is trying to load additional media. Check your connection and try again.
+merlin_is_trying_to_load_additional_media: "Merlin se snaží načíst další média. Zkontrolujte připojení a zkuste to znovu."
+
+# Merlin is working in the background.
+merlin_is_working_in_the_background: "Merlin pracuje na pozadí."
+
+# Merlin keeps your bird packs up to date. We’re always working on making Merlin better! Information in your bird packs will automatically update when new information is available.
+merlin_keeps_packs_up_to_date_automatically: "Merlin udržuje vaše balíčky ptáků aktuální. Stále pracujeme na tom, aby byl Merlin lepší! Informace ve vašich balíčcích se automaticky aktualizují, jakmile budou dostupné novější."
+
+# Merlin Sound ID can notify you about new birds nearby, even while you’re doing other things.
+merlin_sound_id_can_notify_you: "Merlin Sound ID vás může upozornit na nové ptáky v okolí, i když děláte něco jiného."
+
+# Merlin uses your location to recommend birds for your region.
+merlin_uses_location_recommend_birds_for_region: "Merlin používá vaši polohu k doporučení ptáků pro vaši oblast."
+
+# Merlin uses thousands of recordings to learn the vocalizations of each bird species. /  / Watch as suggestions appear and note the pitch and pattern of each bird.
+merlin_uses_recordings: "Merlin se učí hlasy jednotlivých druhů z tisíců nahrávek.\n\nSledujte, jak se objevují návrhy, a všímejte si výšky a rytmu hlasu každého ptáka."
+
+# Migrating bird content…
+migrating_bird_content: "Převádí se ptačí obsah…"
+
+# Migration
+migration: "Tah"
+
+# These are the habitats where the bird can be found when moving between their breeding and non breeding areas. Often corresponds to spring and fall, although habitats may or may not be the same.
+migration_description: "Prostředí, ve kterém lze ptáka zastihnout při přeletu mezi hnízdištěm a zimovištěm. Často odpovídá jaru a podzimu, prostředí však může i nemusí být stejné."
+
+# Migration season
+migration_season: "Období tahu"
+
+# More help articles
+more_help_articles: "Další články nápovědy"
+
+# Most likely
+most_likely: "Nejpravděpodobnější"
+
+# Move repeated live matches to top
+move_repeated_live_matches_to_top: "Přesouvat opakované živé shody nahoru"
+
+# My offline birds
+my_offline_birds: "Moji offline ptáci"
+
+# near %1$s
+near_location: "u %1$s"
+
+# Nearby places
+nearby_places: "Místa v okolí"
+
+# Nearby places for
+nearby_places_for: "Místa v okolí pro"
+
+# New Lifer!
+new_lifer: "Nový lifer!"
+
+# New
+new_recording: "Nové"
+
+# New! Smaller bird packs and more options for taking Merlin offline.
+new_smaller_bird_packs_tip: "Novinka! Menší balíčky ptáků a více možností, jak Merlin používat offline."
+
+# Next
+next: "Další"
+
+# No
+no: "Ne"
+
+# No birds match your filter settings
+no_birds_match_filter_settings: "Vašemu nastavení filtrů neodpovídají žádní ptáci"
+
+# No birds matching "%1$s"
+no_birds_matching: "Žádní ptáci neodpovídají „%1$s“"
+
+# No recent locations
+no_recent_locations: "Žádné nedávné polohy"
+
+# No results
+no_results: "Žádné výsledky"
+
+# <b>No suggested nearby places.</b> This bird may not be expected here at this time, or Merlin may not have enough data to recommend a great spot.
+no_suggested_nearby_places: "<b>Žádná doporučená místa v okolí.</b> Tento pták se tu v tuto dobu možná nevyskytuje nebo Merlin nemá dost dat, aby doporučil dobré místo."
+
+# No suggestions
+no_suggestions: "Žádné návrhy"
+
+# This is when the bird isn’t breeding or migrating. Often but not always corresponds to winter, especially at higher latitudes.
+non_breeding_description: "Období, kdy pták nehnízdí ani netáhne. Často, ale ne vždy, odpovídá zimě, zvláště ve vyšších zeměpisných šířkách."
+
+# Nonbreeding
+nonbreeding: "Mimo hnízdění"
+
+# Nonbreeding season
+nonbreeding_season: "Období mimo hnízdění"
+
+# none
+none: "žádné"
+
+# Not imported
+not_imported: "Neimportováno"
+
+# Not in %1$s on %2$s
+not_in_location_on_date: "Nevyskytuje se v %1$s dne %2$s"
+
+# Not in %s today
+not_in_location_today: "Nevyskytuje se dnes v %s"
+
+# Not Right Now
+not_right_now: "Teď ne"
+
+# Connected
+notification_finder_connected: "Připojeno"
+
+# Connecting…
+notification_finder_connecting: "Připojuje se…"
+
+# Disconnected
+notification_finder_disconnected: "Odpojeno"
+
+# Connection failed
+notification_finder_failure: "Připojení selhalo"
+
+# No wifi connection to Swarovski Optik dG
+notification_finder_failure_no_finder_wifi: "Žádné připojení Wi-Fi k Swarovski Optik dG"
+
+# Please wait…
+notification_finder_status_please_wait: "Čekejte prosím…"
+
+# Notifications
+notifications: "Oznámení"
+
+# Notifications alert you to birds nearby
+notifications_alert_you: "Oznámení vás upozorní na ptáky v okolí"
+
+# OK
+ok: "OK"
+
+# 1 of 5
+one_of_five: "1 z 5"
+
+# 1 of 2
+one_of_two: "1 z 2"
+
+# Open Settings
+open_settings: "Otevřít Nastavení"
+
+# Other packs nearby
+other_packs_nearby: "Další balíčky v okolí"
+
+# Other regions
+other_regions: "Další oblasti"
+
+# Our bird packs do not cover this location
+our_bird_packs_do_not_cover_location: "Naše balíčky ptáků tuto polohu nepokrývají"
+
+# Best for %s
+pack_best_for: "Nejvhodnější pro %s"
+
+# Best for your location
+pack_best_for_your_location: "Nejvhodnější pro vaši polohu"
+
+# In partnership with:
+pack_partnership_title: "Ve spolupráci s:"
+
+# Bird pack downloads are not available at this time. Please tap continue and try again later under Settings > Packs.
+packs_not_available: "Stahování balíčků ptáků teď není dostupné. Klepněte prosím na Pokračovat a zkuste to později v Nastavení > Balíčky."
+
+# Paused
+paused: "Pozastaveno"
+
+# Please confirm where and when you took the photograph.
+photo_id_confirm_photo: "Potvrďte prosím, kde a kdy jste fotografii pořídili."
+
+# Photo ID is downloading
+photo_id_restart_download_msg: "Photo ID se stahuje"
+
+# Use Merlin to identify bird photos
+photoid_home_button_subtitle: "Určujte ptáky z fotografií pomocí Merlinu"
+
+# Pinch and zoom to adjust results
+pinch_and_zoom: "Gestem prstů upravte výřez a výsledky"
+
+# Please check your email. We sent a confirmation to:
+please_check_email: "Zkontrolujte prosím svůj e-mail. Potvrzení jsme poslali na:"
+
+# Please confirm your email address
+please_confirm_email: "Potvrďte prosím svou e-mailovou adresu"
+
+# Please confirm your email address to continue
+please_confirm_email_final: "Pro pokračování prosím potvrďte svou e-mailovou adresu"
+
+# Please enable location services
+please_enable_location_services_title: "Zapněte prosím služby určování polohy"
+
+# Please install a bird pack
+please_install_a_bird_pack: "Nainstalujte prosím balíček ptáků"
+
+# Please set your location
+please_set_your_location: "Nastavte prosím svou polohu"
+
+# Please set your location to view likely birds nearby
+please_set_your_location_likely_birds: "Nastavte prosím svou polohu, abyste viděli pravděpodobné ptáky v okolí"
+
+# Please wait…
+please_wait: "Čekejte prosím…"
+
+# Bird of the Day is Found
+pref_dev_botd_found: "Pták dne je nalezen"
+
+# Use Fake Bird of the Day Status?
+pref_dev_use_fake_botd_status: "Použít falešný stav ptáka dne?"
+
+# Acoustic Checklists
+preference_dev_acoustic_checklists: "Akustické seznamy"
+
+# Force Onboarding flow
+preference_dev_force_onboarding_summary: "Vynutit úvodní průvodce"
+
+# Onboarding Flow
+preference_dev_onboarding: "Úvodní průvodce"
+
+# Use Compose Sound ID UI (A/B)
+preference_dev_sound_id_compose_ui: "Použít Compose UI pro Sound ID (A/B)"
+
+# Test server
+preference_packs_from_test_server_label: "Testovací server"
+
+# Preparing bird data…
+preparing_bird_data: "Připravují se data o ptácích…"
+
+# Preparing Bird Content
+preparing_content: "Připravuje se ptačí obsah"
+
+# Go to previous
+previous: "Přejít na předchozí"
+
+# Primary Display
+primary_display: "Primární zobrazení"
+
+# Privacy policy
+privacy_policy: "Zásady ochrany osobních údajů"
+
+# There was a problem downloading %d of your birds. Check your internet connection.
+problem_downloading_x_birds_check_internet: "Při stahování %d vašich ptáků nastal problém. Zkontrolujte připojení k internetu."
+
+# There was a problem getting %d of your birds. Merlin will keep trying to download them and notify you when they are ready.
+problem_downloading_x_birds_merlin_will_keep_trying: "Při získávání %d vašich ptáků nastal problém. Merlin se je bude dál snažit stáhnout a upozorní vás, až budou připravení."
+
+# Prototypes
+prototypes: "Prototypy"
+
+# Range
+range: "Rozšíření"
+
+# Rare
+rare: "Vzácný"
+
+# Reactivation threshold
+reactivation_threshold: "Prahová hodnota pro reaktivaci"
+
+# Recent
+recent: "Nedávné"
+
+# Recorded by: 
+recorded_by: "Nahrál: "
+
+# Recording Length - Longest First
+recording_length_longest_first: "Délka nahrávky – od nejdelší"
+
+# Recording Length - Shortest First
+recording_length_shortest_first: "Délka nahrávky – od nejkratší"
+
+# Refine
+refine: "Zpřesnit"
+
+# Refine bird list
+refine_bird_list: "Zpřesnit seznam ptáků"
+
+# + %1$d more
+remaining_pills: "+ %1$d dalších"
+
+# Remember my choice
+remember_my_choice: "Zapamatovat mou volbu"
+
+# Remind me at
+remind_me_at: "Připomenout v"
+
+# Remove
+remove: "Odebrat"
+
+# Remove region
+remove_region: "Odebrat oblast"
+
+# Removes content Merlin has automatically saved for offline use. Does not remove offline birds you’ve downloaded yourself.
+removes_content_merlin_auto_saved: "Odebere obsah, který Merlin automaticky uložil pro offline použití. Neodebere offline ptáky, které jste si stáhli sami."
+
+# Removes %1$s (%2$s) from your device
+removes_x_birds: "Odebere %1$s (%2$s) z vašeho zařízení"
+
+# Report No Matches
+report_no_matches: "Nahlásit, že nic neodpovídá"
+
+# Report with eBird?
+report_this_bird: "Nahlásit do eBirdu?"
+
+# When you identify a bird, you can choose to report it on an eBird checklist. Use eBird if you want to keep a complete list of all your sightings that will appear on recent visits, hotspots and species maps. You can change this later in settings.
+report_this_bird_message: "Když ptáka určíte, můžete ho nahlásit do seznamu pozorování v eBirdu. eBird použijte, pokud si chcete vést úplný seznam všech svých pozorování, který se objeví v nedávných návštěvách, na lokalitách a v mapách druhů. Toto můžete později změnit v nastavení."
+
+# Reset to Today
+reset_to_today: "Nastavit na dnešek"
+
+# Reshow unsaved nuggets
+reshow_unsaved_nuggets: "Znovu zobrazovat neuložené tipy"
+
+# Results
+results: "Výsledky"
+
+# Resume
+resume: "Pokračovat"
+
+# Looking up location name…
+reverse_geocoding_in_progress: "Zjišťuje se název místa…"
+
+# Rotate
+rotate_photo: "Otočit"
+
+# Save
+save: "Uložit"
+
+# Save photos and audio for offline use. Merlin will download and maintain offline content for all birds in regions you select.
+save_photos_and_audio_offline: "Uložte si fotografie a zvuky pro offline použití. Merlin stáhne a bude udržovat offline obsah pro všechny ptáky ve vybraných oblastech."
+
+# Save this Sound ID session to revisit it later.
+save_this_sound_id_session: "Uložte si toto nahrávání Sound ID, abyste se k němu mohli vrátit později."
+
+# Save with Merlin
+save_with_merlin: "Uložit v Merlinu"
+
+# Saved
+saved: "Uloženo"
+
+# Saving your sighting…
+saving_bird: "Ukládá se vaše pozorování…"
+
+# Scientific name
+scientific_name: "Vědecký název"
+
+# Search
+search: "Hledat"
+
+# Secondary Display
+secondary_display: "Sekundární zobrazení"
+
+# You've found this bird
+seen_this_bird: "Tohoto ptáka jste našli"
+
+# Select all
+select_all: "Vybrat vše"
+
+# Select from 1 to 3
+select_from_1_to_3: "Vyberte 1 až 3"
+
+# %1$d selected
+selected_recordings: "Vybráno: %1$d"
+
+# Send email again
+send_email_again: "Poslat e-mail znovu"
+
+# Send me a daily reminder
+send_me_a_daily_reminder: "Posílat mi denní připomenutí"
+
+# Send us feedback
+send_us_feedback: "Napište nám"
+
+# Please check your email. We sent the email to:
+sent_email2: "Zkontrolujte prosím svůj e-mail. Poslali jsme ho na:"
+
+# Set location
+set_location: "Nastavit polohu"
+
+# Set location manually
+set_location_manually: "Nastavit polohu ručně"
+
+# Settings
+settings: "Nastavení"
+
+# Share
+share: "Sdílet"
+
+# Share Recording
+share_recording: "Sdílet nahrávku"
+
+# Should I choose eBird or Merlin?
+should_i_choose: "Mám zvolit eBird, nebo Merlin?"
+
+# Show %1$d birds
+show_birds: "Zobrazit %1$d ptáků"
+
+# Show draft packs
+show_draft_packs: "Zobrazovat rozpracované balíčky"
+
+# Show ID tips
+show_id_tips: "Zobrazovat tipy k určování"
+
+# Show more suggestions
+show_more_suggestions: "Zobrazit další návrhy"
+
+# Show Sound ID Nuggets
+show_sound_id_nuggets: "Zobrazovat tipy Sound ID"
+
+# Show suggestions
+show_suggestions: "Zobrazit návrhy"
+
+# Showing scientific names
+showing_scientific_names: "Vědecké názvy se zobrazují"
+
+# Observation saved!
+sighting_saved: "Pozorování uloženo!"
+
+# Use Merlin
+sightings_option_merlin: "Použít Merlin"
+
+# Sign in
+sign_in: "Přihlásit se"
+
+# Sign out
+sign_out: "Odhlásit se"
+
+# <p><b>Sorry, Merlin can&#39;t hear your birds!</b></p><p>On some phones, Google Assistant (a.k.a. “Hey Google”) interferes with Merlin’s ability to access your microphone.</p><p>We are working on a permanent solution for this, but for a temporary fix, please try the following:</p><p>1) Go to your device's Settings<br/>2) Search for &quot;Assistant Settings&quot; and disable the &quot;Hey Google&quot; feature<br/>3) Disable Dolby Atmos, if your device includes this<br/>4) Restart your device and try Sound ID again</p>
+silence_detected_message: "<p><b>Bohužel, Merlin vaše ptáky neslyší!</b></p><p>Na některých telefonech Asistent Google (tedy „Hey Google“) brání Merlinu v přístupu k mikrofonu.</p><p>Pracujeme na trvalém řešení, zatím prosím zkuste toto:</p><p>1) Přejděte do Nastavení svého zařízení<br/>2) Vyhledejte „Nastavení asistenta“ a vypněte funkci „Hey Google“<br/>3) Vypněte Dolby Atmos, pokud ho vaše zařízení má<br/>4) Restartujte zařízení a zkuste Sound ID znovu</p>"
+
+# Skip
+skip: "Přeskočit"
+
+# Soaring or flying
+soaring: "Kroužení nebo let"
+
+# There was an error while sharing this ID. Please try again later.
+social_sharing_error_message: "Při sdílení tohoto určení nastala chyba. Zkuste to prosím později."
+
+# Some birds sound very similar and can trick Merlin and birders.  /   / The best way to learn sounds is to see the bird that is vocalizing.
+some_birds_sound_similar: "Někteří ptáci zní velmi podobně a dokážou zmást Merlin i ornitologa.\n\nNejlepší způsob, jak se hlasy naučit, je vidět ptáka, který zpívá."
+
+# Sorry…
+sorry: "Bohužel…"
+
+# Sort
+sort: "Řadit"
+
+# Sort by
+sort_by: "Řadit podle"
+
+# File Name - Ascending
+sort_filename_asc: "Název souboru – vzestupně"
+
+# File Name - Descending
+sort_filename_desc: "Název souboru – sestupně"
+
+# By family
+sort_option_family: "Podle rodiny"
+
+# By family - most likely
+sort_option_family_frequency_desc: "Podle rodiny – nejpravděpodobnější"
+
+# Birds supported by Sound ID
+sound_id_bird_list_title: "Ptáci podporovaní funkcí Sound ID"
+
+# Are you sure you want to delete %1$s?
+sound_id_confirm_delete: "Opravdu chcete smazat %1$s?"
+
+# Merlin can identify %1$s of the likely birds in this area, so the results you see in Sound ID will be incomplete. For Merlin to learn the rest, it needs to be trained using more sound recordings of those birds. You may be hearing birds Merlin can't identify yet, so if you also use eBird, be sure to contribute your recording to your checklist! /  / Sound ID is currently available for %2$d species. Sound ID will be expanded in the future to include species worldwide, but to do that, our team needs a minimum of 150 sound recordings for each species to train Merlin to recognize their sounds. You can help us add new species to Merlin by recording the birds in your area and uploading them with your eBird checklists.
+sound_id_coverage_help_question1_answer: "Merlin dokáže určit %1$s pravděpodobných ptáků v této oblasti, takže výsledky v Sound ID budou nekompletní. Aby se Merlin naučil zbytek, potřebuje k tomu více zvukových nahrávek těchto ptáků. Můžete slyšet ptáky, které Merlin ještě neumí určit, takže pokud používáte i eBird, přidejte prosím svou nahrávku do svého seznamu pozorování!\n\nSound ID je momentálně dostupné pro %2$d druhů. V budoucnu se rozšíří na druhy z celého světa, k tomu ale náš tým potřebuje u každého druhu alespoň 150 zvukových nahrávek, aby Merlin naučil jeho hlas rozpoznávat. Pomoci nám můžete tím, že budete nahrávat ptáky ve svém okolí a nahrávky odešlete se svými seznamy do eBirdu."
+
+# Merlin Bird ID is a community-built resource, relying on the data and media collected by over a million birders around the world! If you use eBird and are in an area not covered by Sound ID, you can best contribute by recording the songs and calls of the birds around you and uploading them to your eBird checklists.
+sound_id_coverage_help_question2_answer: "Merlin Bird ID vzniká díky komunitě a opírá se o data a média, která nasbíralo přes milion ornitologů z celého světa! Pokud používáte eBird a jste v oblasti, kterou Sound ID nepokrývá, nejvíc pomůžete tím, že budete nahrávat zpěv a hlasy ptáků ve svém okolí a nahrávky odešlete do svých seznamů v eBirdu."
+
+# <b>Sound ID knows %1$s of the likely birds here.</b> Learn how this limits your results and how you can help Sound ID learn more species.
+sound_id_coverage_stat: "<b>Sound ID zná %1$s pravděpodobných ptáků v této oblasti.</b> Zjistěte, jak to omezuje vaše výsledky a jak můžete pomoci Sound ID naučit se další druhy."
+
+# Download %1$s
+sound_id_download_size: "Stáhnout %1$s"
+
+# You need to enable location permissions for Merlin get your current location
+sound_id_enable_location_permissions_alert_text: "Aby Merlin zjistil vaši aktuální polohu, musíte povolit oprávnění k poloze"
+
+# Please enable location permissions
+sound_id_enable_location_permissions_alert_title: "Povolte prosím oprávnění k poloze"
+
+# Delete…
+sound_id_file_action_delete: "Smazat…"
+
+# Rename…
+sound_id_file_action_rename: "Přejmenovat…"
+
+# How can I help expand and improve Sound ID?
+sound_id_help_no_coverage_how_can_i_help_title: "Jak mohu pomoci rozšířit a zlepšit Sound ID?"
+
+# Which species can Sound ID identify? When will Sound ID be available for my region?
+sound_id_help_no_coverage_title: "Které druhy umí Sound ID určit? Kdy bude Sound ID dostupné pro můj region?"
+
+# Import
+sound_id_import: "Importovat"
+
+# Sound ID is paused
+sound_id_is_paused: "Sound ID je pozastaveno"
+
+# Stop
+sound_id_notification_stop: "Zastavit"
+
+# Sound ID (V%1$d)
+sound_id_pref_category_title: "Sound ID (V%1$d)"
+
+# Sound ID requires permissions to record and save audio using the microphone. Tap here to open the App Settings screen and grant the permissions.
+sound_id_recorder_permissions_denied: "Sound ID potřebuje oprávnění k nahrávání a ukládání zvuku z mikrofonu. Klepnutím sem otevřete nastavení aplikace a oprávnění udělíte."
+
+# Sound ID recording has finished
+sound_id_recording_has_finished: "Nahrávání Sound ID bylo dokončeno"
+
+# Sound ID requires a location to show suggestions
+sound_id_requires_location_to_show_suggestions: "Sound ID potřebuje polohu, aby mohlo zobrazit návrhy"
+
+# Sound ID Results
+sound_id_results_notification_channel_name: "Výsledky Sound ID"
+
+# Sound ID sessions
+sound_id_sessions: "Nahrávání Sound ID"
+
+# Bird detected! Stop recording to explore your results.
+sound_id_stop_recording: "Pták rozpoznán! Zastavte nahrávání a prohlédněte si výsledky."
+
+# Sounds
+sounds: "Zvuky"
+
+# Species name display (in device)
+species_name_display: "Zobrazení názvu druhu (v zařízení)"
+
+# Please wait while Merlin prepares your content. This may take a few minutes…
+species_pack_migration_wait_message: "Počkejte prosím, než Merlin připraví váš obsah. Může to trvat několik minut…"
+
+# Specific date
+specific_date: "Konkrétní datum"
+
+# Spectrogram not available
+spectrogram_not_available: "Spektrogram není dostupný"
+
+# Start Sound ID
+start_sound_id: "Spustit Sound ID"
+
+# Start using dG
+start_using_dg: "Začít používat dG"
+
+# Start using AX Visio
+start_using_falke: "Začít používat AX Visio"
+
+# Start your Life List!
+start_your_lifelist: "Založte si life list!"
+
+# Step by Step
+step_by_step: "Krok za krokem"
+
+# The bird you're seeing may not be in our database yet. Your response will help improve Merlin's accuracy.
+still_cant_find_detail_text: "Pták, kterého vidíte, možná ještě není v naší databázi. Vaše odpověď pomůže zpřesnit Merlin."
+
+# Stop Sound ID
+stop_sound_id: "Zastavit Sound ID"
+
+# Stop Sound ID?
+stop_sound_id_for_playback: "Zastavit Sound ID?"
+
+# Audio cannot play while Sound ID is recording. Do you want to stop Sound ID and play audio instead?
+stop_sound_id_for_playback_desc: "Během nahrávání Sound ID nelze přehrávat zvuk. Chcete Sound ID zastavit a přehrát zvuk?"
+
+# Stop using dG
+stop_using_dg: "Přestat používat dG"
+
+# Stop using AX Visio
+stop_using_falke: "Přestat používat AX Visio"
+
+# Black
+string_array_ColorList_0: "Černá"
+
+# Gray
+string_array_ColorList_1: "Šedá"
+
+# White
+string_array_ColorList_2: "Bílá"
+
+# Buff/Brown
+string_array_ColorList_3: "Béžová/hnědá"
+
+# Red/Rufous
+string_array_ColorList_4: "Červená/rezavá"
+
+# Yellow
+string_array_ColorList_5: "Žlutá"
+
+# Olive/Green
+string_array_ColorList_6: "Olivová/zelená"
+
+# Blue
+string_array_ColorList_7: "Modrá"
+
+# Orange
+string_array_ColorList_8: "Oranžová"
+
+# Sparrow-sized or smaller
+string_array_birdSize_0: "Velikosti vrabce nebo menší"
+
+# Between Sparrow and Robin
+string_array_birdSize_1: "Mezi vrabcem a drozdem"
+
+# Robin-sized
+string_array_birdSize_2: "Velikosti drozda"
+
+# Between Robin and Crow
+string_array_birdSize_3: "Mezi drozdem a vránou"
+
+# Crow-sized
+string_array_birdSize_4: "Velikosti vrány"
+
+# Between Crow and Goose
+string_array_birdSize_5: "Mezi vránou a husou"
+
+# Goose-sized or larger
+string_array_birdSize_6: "Velikosti husy nebo větší"
+
+# Tap to view your own Bird of the Day.
+string_array_botd_daily_reminder_message_0: "Klepnutím zobrazíte svého ptáka dne."
+
+# What will your bird be today? Get your Bird of the Day now!
+string_array_botd_daily_reminder_message_1: "Jaký bude váš dnešní pták? Zjistěte to hned!"
+
+# Let's go find your Bird of the Day! 👉
+string_array_botd_daily_reminder_message_2: "Pojďme najít vašeho ptáka dne! 👉"
+
+# Don't forget to find your Bird of the Day
+string_array_botd_daily_reminder_message_3: "Nezapomeňte najít svého ptáka dne"
+
+# Remember to find your Bird of the Day
+string_array_botd_daily_reminder_message_4: "Pamatujte, že máte najít svého ptáka dne"
+
+# Discover today's Bird of the Day.
+string_array_botd_daily_reminder_message_5: "Objevte dnešního ptáka dne."
+
+# Listen for your Bird of the Day!
+string_array_botd_daily_reminder_message_6: "Zaposlouchejte se do svého ptáka dne!"
+
+# Challenge: Find your Bird of the Day
+string_array_botd_daily_reminder_message_7: "Výzva: najděte svého ptáka dne"
+
+# Your Bird of the Day is ready to be found
+string_array_botd_daily_reminder_message_8: "Váš pták dne čeká, až ho najdete"
+
+# Will you find your Bird of the Day?
+string_array_botd_daily_reminder_message_9: "Najdete svého ptáka dne?"
+
+# Today's Bird Awaits!
+string_array_botd_daily_reminder_title_0: "Dnešní pták čeká!"
+
+# Your Bird of the Day is ready…
+string_array_botd_daily_reminder_title_1: "Váš pták dne je připraven…"
+
+# Can you find your Bird of the Day today?
+string_array_botd_daily_reminder_title_2: "Najdete dnes svého ptáka dne?"
+
+# Your Bird of the Day awaits
+string_array_botd_daily_reminder_title_3: "Váš pták dne čeká"
+
+# New Day, New Birds!
+string_array_botd_daily_reminder_title_5: "Nový den, noví ptáci!"
+
+# Be on the lookout for birds!
+string_array_botd_daily_reminder_title_6: "Rozhlížejte se po ptácích!"
+
+# Hi Birding Bestie! 👋
+string_array_botd_daily_reminder_title_7: "Ahoj, ptačí kamaráde! 👋"
+
+# Hi, it's Merlin! 👋
+string_array_botd_daily_reminder_title_8: "Ahoj, tady Merlin! 👋"
+
+# Ready for a birding break?
+string_array_botd_daily_reminder_title_9: "Dáte si ptačí pauzu?"
+
+# Eating at a feeder
+string_array_characterList_0: "Krmí se u krmítka"
+
+# Swimming or wading
+string_array_characterList_1: "Plave nebo se brodí"
+
+# On the ground
+string_array_characterList_2: "Na zemi"
+
+# In trees or bushes
+string_array_characterList_3: "Na stromech nebo v křoví"
+
+# On a fence or wire
+string_array_characterList_4: "Na plotě nebo drátu"
+
+# Soaring or flying
+string_array_characterList_5: "Kroužení nebo let"
+
+# Supported Birds
+supported_birds: "Podporovaní ptáci"
+
+# Turn the mode selection wheel on your AX Visio to Bird ID before making any changes.
+swaro_merlin_context_unavailable: "Než provedete jakékoli změny, přepněte kolečko volby režimu na svém AX Visio na Bird ID."
+
+# Merlin could not download likely birds for your area. Results may include birds that do not occur in this area.
+swarovski_photoid_freq_unavailable: "Merlin nemohl stáhnout pravděpodobné ptáky pro vaši oblast. Výsledky mohou obsahovat ptáky, kteří se zde nevyskytují."
+
+# Swimming or wading
+swimming: "Plave nebo se brodí"
+
+# Take a photo…
+take_a_photo: "Vyfotit…"
+
+# Take me to eBird
+take_me_to_ebird: "Přejít do eBirdu"
+
+# Take photo
+take_photo: "Vyfotit"
+
+# There was an error updating the taxonomy
+taxonomy_update_failure_message: "Při aktualizaci taxonomie nastala chyba"
+
+# Updating taxonomy…
+taxonomy_update_in_progress: "Aktualizuje se taxonomie…"
+
+# Species names successfully updated
+taxonomy_update_success_message: "Názvy druhů byly úspěšně aktualizovány"
+
+# Taxonomy: %1$s
+taxonomy_version_label: "Taxonomie: %1$s"
+
+# Tell a friend
+tell_a_friend: "Doporučit známým"
+
+# Explore the world of birds with Merlin Bird ID! MerlinBirdID.com
+tell_a_friend_share_text: "Objevujte svět ptáků s Merlin Bird ID! MerlinBirdID.com"
+
+# Terms of use
+terms_of_use: "Podmínky použití"
+
+# Thank you!
+thank_you: "Děkujeme!"
+
+# Thanks!
+thanks: "Díky!"
+
+# 3 of 5
+three_of_five: "3 z 5"
+
+# This is my bird
+timb: "To je můj pták"
+
+# To keep the download size small, bird packs now come with just a few sound recordings for each bird, with the option to add an “additional sounds” pack for a more complete set of information.
+to_keep_download_size_small_p1: "Aby byly stahované soubory menší, obsahují balíčky ptáků nově jen několik zvukových nahrávek pro každého ptáka, s možností přidat balíček „dalších zvuků“ pro úplnější sadu informací."
+
+# Don’t worry, the birds you’ve already downloaded are still saved. You can update to a smaller pack if you don’t want the additional sounds.
+to_keep_download_size_small_p2: "Nebojte se, ptáci, které jste si už stáhli, zůstávají uloženi. Pokud další zvuky nechcete, můžete přejít na menší balíček."
+
+# To keep the download size small, bird packs come with just a few sound recordings for each species.
+to_keep_download_small_few_recordings: "Aby byly stahované soubory menší, obsahují balíčky ptáků jen několik zvukových nahrávek pro každý druh."
+
+# Today
+today: "Dnes"
+
+# View likely birds by location and date or choose a bird pack
+tooltip_filter_title: "Zobrazte pravděpodobné ptáky podle polohy a data nebo vyberte balíček ptáků"
+
+# In trees or bushes
+trees: "Na stromech nebo v křoví"
+
+# Try again
+try_again: "Zkusit znovu"
+
+# 2 of 5
+two_of_five: "2 z 5"
+
+# 2 of 2
+two_of_two: "2 z 2"
+
+# Uncommon
+uncommon: "Nehojný"
+
+# Uninstall
+uninstall: "Odinstalovat"
+
+# Unknown
+unknown: "Neznámé"
+
+# Unknown Date
+unknown_date: "Neznámé datum"
+
+# Unknown Location
+unknown_location: "Neznámá poloha"
+
+# #Unlikely# in %1$s on %2$s
+unlikely_in_location_on_date: "#Nepravděpodobný# v %1$s dne %2$s"
+
+# #Unlikely# in %s today
+unlikely_in_location_today: "#Nepravděpodobný# dnes v %s"
+
+# Unselect all
+unselect_all: "Zrušit výběr"
+
+# Update
+update: "Aktualizovat"
+
+# Update Content
+update_content: "Aktualizovat obsah"
+
+# Update Region Packs
+update_region_packs: "Aktualizovat regionální balíčky"
+
+# Update Suggestions
+update_suggestions: "Aktualizovat návrhy"
+
+# Updating content…
+updating_content: "Aktualizuje se obsah…"
+
+# Updating ID tips…
+updating_nuggets: "Aktualizují se tipy k určování…"
+
+# Updating pack images…
+updating_pack_images: "Aktualizují se obrázky balíčků…"
+
+# Updating region packs…
+updating_region_packs: "Aktualizují se regionální balíčky…"
+
+# Updating species list
+updating_species_list: "Aktualizuje se seznam druhů"
+
+# Use eBird
+use_ebird: "Použít eBird"
+
+# Use eBird to report birds?
+use_ebird_to_report_birds: "Nahlašovat ptáky do eBirdu?"
+
+# When you identify a bird, you can choose to report it on an eBird checklist. Use eBird if you want to keep a complete list of all your sightings that will appear on recent visits, hotspots and species maps.
+use_ebird_to_report_birds_message: "Když ptáka určíte, můžete ho nahlásit do seznamu pozorování v eBirdu. eBird použijte, pokud si chcete vést úplný seznam všech svých pozorování, který se objeví v nedávných návštěvách, na lokalitách a v mapách druhů."
+
+# Use test server for nuggets and species content
+use_test_server_for_nuggets_and_species_content: "Použít testovací server pro tipy a obsah druhů"
+
+# Auto-play home screen videos
+video_autoplay: "Automaticky přehrávat videa na domovské obrazovce"
+
+# View account
+view_account: "Zobrazit účet"
+
+# View life list
+view_life_list: "Zobrazit life list"
+
+# View your saved Sound ID sessions here!
+view_your_saved_sound_id_sessions_here: "Zde najdete svá uložená nahrávání Sound ID!"
+
+# Waiting for photos…
+waiting_for_photos: "Čeká se na fotografie…"
+
+# Warning
+warning: "Upozornění"
+
+# Was the bird… ?
+was_the_bird: "Byl pták… ?"
+
+# We have recorded your response to improve Merlin's accuracy.
+we_have_recorded_your_response: "Vaši odpověď jsme zaznamenali, pomůže zpřesnit Merlin."
+
+# Welcome!
+welcome: "Vítejte!"
+
+# Welcome back! Sign in to see your latest birds.
+welcome_back_sign_in_to_see_your_latest_birds: "Vítejte zpět! Přihlaste se a podívejte se na své nejnovější ptáky."
+
+# Continue
+welcome_continue: "Pokračovat"
+
+# Welcome to your Life List!
+welcome_to_your_life_list: "Vítejte ve svém life listu!"
+
+# This is where you keep track of all the birds you’ve identified. Each time you add a new one, it’s called a “lifer”!
+welcome_to_your_life_list_explanation: "Zde máte přehled o všech ptácích, které jste určili. Každý nový druh se označuje jako „lifer“!"
+
+# We’ve made packs smaller!
+weve_made_packs_smaller: "Zmenšili jsme balíčky!"
+
+# What's your next lifer?
+what_is_your_next_lifer: "Jaký bude váš další lifer?"
+
+# What size was the bird?
+what_size: "Jak velký pták to byl?"
+
+# What were the main colors?
+what_were_the_colors: "Jaké byly hlavní barvy?"
+
+# When did you see the bird?
+when_did_you_see_bird: "Kdy jste ptáka viděli?"
+
+# Where did you find it?
+where_did_you_find_it: "Kde jste ho našli?"
+
+# Where did you see the bird?
+where_did_you_see_bird: "Kde jste ptáka viděli?"
+
+# Where are you listening?
+where_listening: "Kde posloucháte?"
+
+# Why should I enable Location Services and allow Merlin Bird ID to access my current location?
+why_enable_location_title: "Proč mám zapnout služby určování polohy a povolit Merlin Bird ID přístup k mé poloze?"
+
+# Why is location important?
+why_is_location_important: "Proč je poloha důležitá?"
+
+# Why is location important for Sound ID?
+why_is_location_important_for_sound_id: "Proč je poloha důležitá pro Sound ID?"
+
+# With almost 11,000 species of birds in the world, many of them can make similar-sounding calls. By knowing your location, Merlin can narrow down that list of possibilities and give you more accurate results.
+why_is_location_important_text: "Na světě žije téměř 11 000 druhů ptáků a mnoho z nich vydává podobně znějící hlasy. Když Merlin zná vaši polohu, může tento seznam možností zúžit a dát vám přesnější výsledky."
+
+# Why isn't Merlin identifying my bird?
+why_isnt_merlin_identifying: "Proč Merlin mého ptáka neurčuje?"
+
+# <html><body><p>Merlin results are best when you are in a quiet place, close to the bird, and standing still. There are a few reasons Merlin might not identify something:</p><ul><li>Merlin may not be able to hear the bird. Check to see if your phone’s microphone is clogged, and try to get closer to the bird without disturbing it.</li><br/><li>You may be hearing a bird or vocalization type that Merlin can’t identify yet. Sound ID will be expanded in the future to include more birds worldwide.</li><br/><li>The sound may be similar to another species, and Merlin isn’t confident enough with what it’s heard so far.</li><br/><li>The sound may not be a bird! Many mammals, frogs, and insects make chirping calls that can sound like birds.</li></body></html>
+why_isnt_merlin_identifying_text: "<html><body><p>Merlin dává nejlepší výsledky, když jste na tichém místě, blízko ptáka a stojíte v klidu. Existuje několik důvodů, proč Merlin něco neurčí:</p><ul><li>Merlin možná ptáka neslyší. Zkontrolujte, jestli není mikrofon telefonu zanesený, a zkuste se k ptákovi přiblížit, aniž byste ho vyrušili.</li><br/><li>Možná slyšíte ptáka nebo typ hlasu, který Merlin ještě neumí určit. Sound ID se v budoucnu rozšíří na další ptáky z celého světa.</li><br/><li>Hlas může být podobný jinému druhu a Merlin si tím, co dosud slyšel, není dost jistý.</li><br/><li>Nemusí jít o ptáka! Mnoho savců, žab a hmyzu vydává cvrlikavé zvuky, které mohou znít jako ptáci.</li></body></html>"
+
+# Working in the Background
+working_in_the_background: "Práce na pozadí"
+
+# Year-round
+year_round: "Celoročně"
+
+# Some species do not migrate, and can be found in the same areas throughout the year.
+year_round_description: "Některé druhy netáhnou a lze je zastihnout ve stejných oblastech po celý rok."
+
+# Year round
+year_round_season: "Celý rok"
+
+# Yes
+yes: "Ano"
+
+# Yesterday
+yesterday: "Včera"
+
+# You can use eBird to report birds
+you_can_use_ebird: "Ptáky můžete nahlašovat do eBirdu"
+
+# You decide if Merlin suggestions are a good match for your bird.  /   / Make sure to compare your bird with Merlin’s example sounds and species details.
+you_decide_suggestions_are_good_match: "Vy rozhodujete, jestli návrhy Merlinu odpovídají vašemu ptákovi.\n\nNezapomeňte svého ptáka porovnat s ukázkovými zvuky a údaji o druhu v Merlinu."
+
+# You found a Lifer!!!
+you_found_a_lifer: "Našli jste nového lifera!!!"
+
+# You found your Bird of the Day!
+you_found_your_botd: "Našli jste svého ptáka dne!"
+
+# You need to enable location permissions for Merlin to get your current location.
+you_need_to_enable_location_permissions: "Aby Merlin zjistil vaši aktuální polohu, musíte povolit oprávnění k poloze."
+
+# Your Bird of the Day
+your_bird_of_the_day: "Váš pták dne"
+
+# Your bird of the day!
+your_bird_of_the_day_exclamation: "Váš pták dne!"
+
+# Zoom until your bird fills the box
+zoom_until: "Přibližujte, dokud pták nezaplní rámeček"
+
+plurals:
+
+  # %d bird / %d birds
+  bird_count:
+    one: "%d pták"
+    few: "%d ptáci"
+    many: "%d ptáka"
+    other: "%d ptáků"
+
+  # Downloading %d bird / Downloading %d birds
+  downloading_birds:
+    one: "Stahuje se %d pták"
+    few: "Stahují se %d ptáci"
+    many: "Stahuje se %d ptáka"
+    other: "Stahuje se %d ptáků"
+
+  # You have %d day remaining to confirm. / You have %d days remaining to confirm.
+  email_grace_period_days_left:
+    one: "Na potvrzení vám zbývá %d den."
+    few: "Na potvrzení vám zbývají %d dny."
+    many: "Na potvrzení vám zbývá %d dne."
+    other: "Na potvrzení vám zbývá %d dní."
+
+  # You have %d day to confirm the address by email / You have %d days to confirm the address by email
+  email_registration_days_left:
+    one: "Na potvrzení adresy e-mailem máte %d den"
+    few: "Na potvrzení adresy e-mailem máte %d dny"
+    many: "Na potvrzení adresy e-mailem máte %d dne"
+    other: "Na potvrzení adresy e-mailem máte %d dní"
+
+  # %d bird / %d birds
+  explore_birds_number_of_birds:
+    one: "%d pták"
+    few: "%d ptáci"
+    many: "%d ptáka"
+    other: "%d ptáků"
+
+  # %d more photo to import… / %d more photos to import…
+  falke_photo_library_count_more_photos:
+    one: "Zbývá importovat %d fotografii…"
+    few: "Zbývá importovat %d fotografie…"
+    many: "Zbývá importovat %d fotografie…"
+    other: "Zbývá importovat %d fotografií…"
+
+  # Swarovski Optik dG %d image saved / Swarovski Optik dG %d images saved
+  finder_number_images_downloaded:
+    one: "Uložen %d snímek ze Swarovski Optik dG"
+    few: "Uloženy %d snímky ze Swarovski Optik dG"
+    many: "Uloženo %d snímku ze Swarovski Optik dG"
+    other: "Uloženo %d snímků ze Swarovski Optik dG"
+
+  # %d selected / %d selected
+  number_selected:
+    one: "Vybrán %d"
+    few: "Vybrány %d"
+    many: "Vybráno %d"
+    other: "Vybráno %d"
+
+  # %d time / %d times
+  seen_this_bird_times_count:
+    one: "%d×"
+    few: "%d×"
+    many: "%d×"
+    other: "%d×"
+
+  # Are you sure you want to permanently delete this recording? / Are you sure you want to permanently delete these recordings?
+  sound_library_delete_confirm:
+    one: "Opravdu chcete tuto nahrávku trvale smazat?"
+    few: "Opravdu chcete tyto nahrávky trvale smazat?"
+    many: "Opravdu chcete tyto nahrávky trvale smazat?"
+    other: "Opravdu chcete tyto nahrávky trvale smazat?"
+
+  # Delete Recording / Delete Recordings
+  sound_library_delete_prompt_title:
+    one: "Smazat nahrávku"
+    few: "Smazat nahrávky"
+    many: "Smazat nahrávky"
+    other: "Smazat nahrávky"
+
+  # Filtering out 1 bird in your life list / Filtering out %1$d birds in your life list
+  warning_hide_lifelist:
+    one: "Vyfiltrován %1$d pták z vašeho life listu"
+    few: "Vyfiltrováni %1$d ptáci z vašeho life listu"
+    many: "Vyfiltrováno %1$d ptáka z vašeho life listu"
+    other: "Vyfiltrováno %1$d ptáků z vašeho life listu"
