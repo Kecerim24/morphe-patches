@@ -64,4 +64,31 @@ object Constants {
             )
         )
     )
+
+    /**
+     * Merlin Bird ID, the free bird identification app by the Cornell Lab of Ornithology.
+     *
+     * The app id is com.labs.merlinbirdid.app; the code lives in edu.cornell.birds.merlin and
+     * com.labs.merlinbirdid.
+     */
+    val COMPATIBILITY_MERLIN = Compatibility(
+        name = "Merlin Bird ID",
+        packageName = "com.labs.merlinbirdid.app",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0xEC1C24,
+        signatures = setOf(
+            // CN=Unknown, OU=Cornell, O=Cornell (single signer, v3 only, no key rotation)
+            "4bf47cfe281374265431aacc08fdbf5be4fbcecad4868f352be6468b8652988d"
+        ),
+        targets = listOf(
+            AppTarget(
+                version = null,
+                isExperimental = true
+            ),
+            // Developed and confirmed working against 4.1 (version code 4010103).
+            AppTarget(
+                version = "4.1"
+            )
+        )
+    )
 }
