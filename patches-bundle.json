@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-22T08:30:05",
-  "description": "## [1.2.0](https://github.com/Kecerim24/morphe-patches/compare/v1.1.0...v1.2.0) (2026-10-22)\n\n### ✨ New Features\n\n* Add \"Change music service packages\" patch for Now Playing ([269c71e](https://github.com/Kecerim24/morphe-patches/commit/269c71e080e9e21f78bca8b325a00fc8821fbc2c))\n* Add Czech translation for Merlin Bird ID ([e84d352](https://github.com/Kecerim24/morphe-patches/commit/e84d3521adc713fe1a8e6b817fbc948ce52e1c09))",
-  "download_url": "https://github.com/Kecerim24/morphe-patches/releases/download/v1.2.0/patches-1.2.0.mpp",
+  "created_at": "2026-10-22T08:41:37",
+  "description": "## [1.2.1-dev.1](https://github.com/Kecerim24/morphe-patches/compare/v1.2.0...v1.2.1-dev.1) (2026-10-22)\n\n### 🐛 Bug Fixes\n\n* Remove \"Change music service packages\" patch for Now Playing ([d1c550c](https://github.com/Kecerim24/morphe-patches/commit/d1c550ceb704311baf8040794c624d822ac2127f))",
+  "download_url": "https://github.com/Kecerim24/morphe-patches/releases/download/v1.2.1-dev.1/patches-1.2.1-dev.1.mpp",
   "signature_download_url": "",
-  "version": "1.2.0"
+  "version": "1.2.1-dev.1"
 }
