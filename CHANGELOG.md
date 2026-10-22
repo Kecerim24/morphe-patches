@@ -1,3 +1,15 @@
+## [1.2.0-dev.2](https://github.com/Kecerim24/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-10-22)
+
+### ✨ New Features
+
+* Add "Change music service packages" patch for Now Playing ([269c71e](https://github.com/Kecerim24/morphe-patches/commit/269c71e080e9e21f78bca8b325a00fc8821fbc2c))
+
+## [1.2.0-dev.1](https://github.com/Kecerim24/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-08-27)
+
+### ✨ New Features
+
+* Add Czech translation for Merlin Bird ID ([e84d352](https://github.com/Kecerim24/morphe-patches/commit/e84d3521adc713fe1a8e6b817fbc948ce52e1c09))
+
 ## [1.1.0](https://github.com/Kecerim24/morphe-patches/compare/v1.0.0...v1.1.0) (2026-08-26)
 
 ### 🐛 Bug Fixes

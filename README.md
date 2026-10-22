@@ -26,6 +26,24 @@ client patch.
 Both Settle Up patches also disable Google Play's PairIP license check, which otherwise
 closes the app on startup and sends you to the Play Store, because patching re-signs the APK.
 
+### [Merlin Bird ID](https://play.google.com/store/apps/details?id=com.labs.merlinbirdid.app) (`com.labs.merlinbirdid.app`)
+
+A free bird identification app by the Cornell Lab of Ornithology. It ships translations for
+about thirty languages, and Czech is not one of them.
+
+`Czech translation` adds one. The translated text lives in
+[`patches/src/main/resources/translations/merlin/cs.yaml`](patches/src/main/resources/translations/merlin/cs.yaml),
+keyed by resource name with the app's own English text as a comment, so it can be corrected
+without touching any Kotlin. The patch merges it into the app's `values-cs` configuration —
+which already holds the Czech strings AndroidX and Material ship, so those are kept — and
+declares `cs` in the app's `locales_config.xml`. That last part is what makes the language
+selectable, both in Android's per-app language setting and in Merlin's own
+*Settings → App language*.
+
+Bird names are not touched: they are not app resources but database rows Merlin fills from the
+eBird taxonomy API, and Czech is already one of the languages that API serves. Pick it under
+*Settings → Common name language*.
+
 > [!NOTE]
 > **These patches were written by AI.** Claude reverse-engineered the apps, wrote the
 > fingerprints and the patches, and verified the resulting bytecode. A human reviewed and
@@ -40,7 +58,37 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/Kecerim24/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.2.0-dev.2](https://github.com/Kecerim24/morphe-patches/releases/tag/v1.2.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
+<details open>
+<summary>📦 Now Playing&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2026.08.27.978158805.4-release |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Change music service packages](#change-music-service-packages) | Changes the package names of the supported music apps, so that Now Playing can open patched or renamed builds of them. | • Apple Music<br>• Deezer<br>• Pandora<br>• SoundCloud<br>• Spotify<br>• TIDAL<br>• YouTube<br>• YouTube Music |
+
+</details>
+
+<details open>
+<summary>📦 Merlin Bird ID&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Czech translation](#czech-translation) | Translates the app's interface into Czech. |  |
+
+</details>
+
 <details open>
 <summary>📦 Settle Up&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
