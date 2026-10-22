@@ -91,4 +91,32 @@ object Constants {
             )
         )
     )
+
+    /**
+     * Now Playing, Google's ambient music recognition history app for Pixel phones.
+     *
+     * Only installs on Pixel devices: the manifest requires the PIXEL_2021_EXPERIENCE and
+     * NOW_PLAYING_APP_26Q1 system features.
+     */
+    val COMPATIBILITY_NOW_PLAYING = Compatibility(
+        name = "Now Playing",
+        packageName = "com.google.android.apps.pixel.nowplaying",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0x4285F4,
+        signatures = setOf(
+            // CN=Android, O=Google Inc. (single signer, v3 only, no key rotation)
+            "48dad75d430f1b6b18b55a968f0e990c1f7bf29f2c627ca947f6e2b65c724c93"
+        ),
+        targets = listOf(
+            AppTarget(
+                version = null,
+                isExperimental = true
+            ),
+            // Developed and confirmed working against 2026.08.27.978158805.4-release
+            // (version code 52709).
+            AppTarget(
+                version = "2026.08.27.978158805.4-release"
+            )
+        )
+    )
 }

@@ -241,7 +241,7 @@ choose_size_of_download: "Vyberte velikost stahovaných dat"
 clean_up_space: "Uvolnit místo"
 
 # The Cornell Lab will send you updates about birds, birding, and opportunities to help bird conservation. You can unsubscribe at any time. We will never sell or give your email address to others.
-clo_will_send_updates: "Cornell Lab vám bude zasílat novinky o ptácích, birdwatchingu a možnostech, jak pomoci jejich ochraně. Odběr můžete kdykoli zrušit. Vaši e-mailovou adresu nikdy neprodáme ani nepředáme dalším stranám."
+clo_will_send_updates: "Cornell Lab vám bude zasílat novinky o ptácích, pozorování ptáků a možnostech, jak pomoci jejich ochraně. Odběr můžete kdykoli zrušit. Vaši e-mailovou adresu nikdy neprodáme ani nepředáme dalším stranám."
 
 # Close
 close: "Zavřít"
@@ -658,13 +658,13 @@ hidden_preference_fcm_token: "FCM token"
 hidden_preference_sound_id_debug_scores: "Zobrazovat skóre Sound ID"
 
 # Initial detection threshold
-hidden_preference_sound_id_initial_threshold: "Počáteční prahová hodnota detekce"
+hidden_preference_sound_id_initial_threshold: "Počáteční práh detekce"
 
 # Consecutive detections for activation
 hidden_preference_sound_id_min_detections_unlock: "Počet detekcí za sebou pro aktivaci"
 
 # Hiding scientific names
-hiding_scientific_names: "Vědecké názvy se skrývají"
+hiding_scientific_names: "Vědecké názvy jsou skryté"
 
 # Highlight Bird of the Day
 highlight_bird_of_the_day: "Zvýraznit ptáka dne"
@@ -1771,7 +1771,7 @@ why_is_location_important_text: "Na světě žije téměř 11 000 druhů ptáků
 why_isnt_merlin_identifying: "Proč Merlin mého ptáka neurčuje?"
 
 # <html><body><p>Merlin results are best when you are in a quiet place, close to the bird, and standing still. There are a few reasons Merlin might not identify something:</p><ul><li>Merlin may not be able to hear the bird. Check to see if your phone’s microphone is clogged, and try to get closer to the bird without disturbing it.</li><br/><li>You may be hearing a bird or vocalization type that Merlin can’t identify yet. Sound ID will be expanded in the future to include more birds worldwide.</li><br/><li>The sound may be similar to another species, and Merlin isn’t confident enough with what it’s heard so far.</li><br/><li>The sound may not be a bird! Many mammals, frogs, and insects make chirping calls that can sound like birds.</li></body></html>
-why_isnt_merlin_identifying_text: "<html><body><p>Merlin dává nejlepší výsledky, když jste na tichém místě, blízko ptáka a stojíte v klidu. Existuje několik důvodů, proč Merlin něco neurčí:</p><ul><li>Merlin možná ptáka neslyší. Zkontrolujte, jestli není mikrofon telefonu zanesený, a zkuste se k ptákovi přiblížit, aniž byste ho vyrušili.</li><br/><li>Možná slyšíte ptáka nebo typ hlasu, který Merlin ještě neumí určit. Sound ID se v budoucnu rozšíří na další ptáky z celého světa.</li><br/><li>Hlas může být podobný jinému druhu a Merlin si tím, co dosud slyšel, není dost jistý.</li><br/><li>Nemusí jít o ptáka! Mnoho savců, žab a hmyzu vydává cvrlikavé zvuky, které mohou znít jako ptáci.</li></body></html>"
+why_isnt_merlin_identifying_text: "<html><body><p>Merlin má nejlepší výsledky, když jste na tichém místě, blízko ptáka a stojíte v klidu. Existuje několik důvodů, proč Merlin něco neurčí:</p><ul><li>Merlin možná ptáka neslyší. Zkontrolujte, jestli není mikrofon telefonu zanesený, a zkuste se k ptákovi přiblížit, aniž byste ho vyrušili.</li><br/><li>Možná slyšíte ptáka nebo typ hlasu, který Merlin ještě neumí určit. Sound ID se v budoucnu rozšíří na další ptáky z celého světa.</li><br/><li>Hlas může být podobný jinému druhu a Merlin si tím, co dosud slyšel, není dost jistý.</li><br/><li>Nemusí jít o ptáka! Mnoho savců, žab a hmyzu vydává cvrlikavé zvuky, které mohou znít jako ptáci.</li></body></html>"
 
 # Working in the Background
 working_in_the_background: "Práce na pozadí"
@@ -1804,7 +1804,7 @@ you_found_a_lifer: "Našli jste nového lifera!!!"
 you_found_your_botd: "Našli jste svého ptáka dne!"
 
 # You need to enable location permissions for Merlin to get your current location.
-you_need_to_enable_location_permissions: "Aby Merlin zjistil vaši aktuální polohu, musíte povolit oprávnění k poloze."
+you_need_to_enable_location_permissions: "Aby Merlin zjistil vaši aktuální polohu, musíte povolit oprávnění přístupu k poloze."
 
 # Your Bird of the Day
 your_bird_of_the_day: "Váš pták dne"
@@ -1813,7 +1813,7 @@ your_bird_of_the_day: "Váš pták dne"
 your_bird_of_the_day_exclamation: "Váš pták dne!"
 
 # Zoom until your bird fills the box
-zoom_until: "Přibližujte, dokud pták nezaplní rámeček"
+zoom_until: "Přibližte, aby pták zaplnil rámeček"
 
 plurals:
 
