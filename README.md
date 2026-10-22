@@ -58,7 +58,22 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0-dev.1](https://github.com/Kecerim24/morphe-patches/releases/tag/v1.2.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.2.0-dev.2](https://github.com/Kecerim24/morphe-patches/releases/tag/v1.2.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
+<details open>
+<summary>📦 Now Playing&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2026.08.27.978158805.4-release |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Change music service packages](#change-music-service-packages) | Changes the package names of the supported music apps, so that Now Playing can open patched or renamed builds of them. | • Apple Music<br>• Deezer<br>• Pandora<br>• SoundCloud<br>• Spotify<br>• TIDAL<br>• YouTube<br>• YouTube Music |
+
+</details>
+
 <details open>
 <summary>📦 Merlin Bird ID&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>

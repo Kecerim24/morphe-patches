@@ -1,3 +1,9 @@
+## [1.2.0-dev.2](https://github.com/Kecerim24/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-10-22)
+
+### ✨ New Features
+
+* Add "Change music service packages" patch for Now Playing ([269c71e](https://github.com/Kecerim24/morphe-patches/commit/269c71e080e9e21f78bca8b325a00fc8821fbc2c))
+
 ## [1.2.0-dev.1](https://github.com/Kecerim24/morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-08-27)
 
 ### ✨ New Features
