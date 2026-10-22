@@ -1,3 +1,9 @@
+## [1.2.1-dev.2](https://github.com/Kecerim24/morphe-patches/compare/v1.2.1-dev.1...v1.2.1-dev.2) (2026-10-22)
+
+### 🐛 Bug Fixes
+
+* Close Settle Up's ad screen however it is opened ([bdd5185](https://github.com/Kecerim24/morphe-patches/commit/bdd51853d355096a1ff13641afb7cdd88bf62826))
+
 ## [1.2.1-dev.1](https://github.com/Kecerim24/morphe-patches/compare/v1.2.0...v1.2.1-dev.1) (2026-10-22)
 
 ### 🐛 Bug Fixes
