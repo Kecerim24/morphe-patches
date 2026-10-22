@@ -67,6 +67,23 @@ internal object BeforeAdActivityStartFingerprint : Fingerprint(
 )
 
 /**
+ * `BeforeAdActivity.onCreate(savedInstanceState)`, the screen that offers premium or a rewarded
+ * ad. [BeforeAdActivityStartFingerprint] is not its only entry point: R8 also inlines a copy of
+ * `start()` into the legacy `TransactionDetailPresenter.saveClicked()`, which builds the intent
+ * itself. The activity is declared in the manifest, so its name survives R8.
+ */
+internal object BeforeAdActivityOnCreateFingerprint : Fingerprint(
+    definingClass = "Lio/stepuplabs/settleup/feature/premium/system/beforead/BeforeAdActivity;",
+    name = "onCreate",
+    returnType = "V",
+    parameters = listOf("Landroid/os/Bundle;"),
+    filters = listOf(
+        string("GROUP_ID"),
+        string("before-ad")
+    )
+)
+
+/**
  * `Plan.isPremiumForFeature(feature)` in the legacy MVP screens:
  *
  * ```
